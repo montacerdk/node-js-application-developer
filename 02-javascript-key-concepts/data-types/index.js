@@ -10,7 +10,12 @@ const symbol2 = Symbol("Hello");
 const sym1 = Symbol("Sym1");
 const sym2 = Symbol("Sym2");
 
-console.log(sym1 === sym2); // false.
+console.log("sym1 === sym2", sym1 === sym2); // false.
+
+const sym1For = Symbol.for("SymFor");
+const sym2For = Symbol.for("SymFor");
+
+console.log("sym1For === sym2For", sym1For === sym2For); // true.
 
 // const RED = "red";
 // const BLUE = "blue";
