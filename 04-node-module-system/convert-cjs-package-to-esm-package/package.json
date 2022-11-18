@@ -1,8 +1,12 @@
 {
-  "name": "convert-cjs-to-esm",
+  "name": "convert-cjs-package-to-esm-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "typeComments": {
+    "module": "ESM-by-default by adding a type field to the package.json and setting it to module"
+  },
   "scripts": {
     "start": "node index.js",
     "lint": "standard"
