@@ -1,0 +1,19 @@
+{
+  "name": "create-cjs-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^8.7.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
