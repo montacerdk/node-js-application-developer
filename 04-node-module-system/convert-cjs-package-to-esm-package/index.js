@@ -5,6 +5,7 @@ import * as format from "./format.js";
 const firstArgv = process.argv[1];
 console.log("🚀 ~ file: index.js ~ line 6 ~ firstArgv", firstArgv);
 
+// Top level await are permitted in ESM since ESM Modules load asynchronously.
 const argv = await realpath(firstArgv);
 console.log("🚀 ~ file: index.js ~ line 10 ~ argv", argv);
 
