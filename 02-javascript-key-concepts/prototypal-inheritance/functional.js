@@ -19,9 +19,9 @@ const dan = Object.create(dog, {
 dan.woof(); // prints "Dan the dog: woof"
 dan.howl(); // prints "Dan the dog: awoooooooo"
 
-console.log(Object.getPrototypeOf(wolf) === Object.prototype); //true
-console.log(Object.getPrototypeOf(dan) === dog); //true
-console.log(Object.getPrototypeOf(dog) === wolf); //true
+console.log(Object.getPrototypeOf(wolf) === Object.prototype); // true
+console.log(Object.getPrototypeOf(dan) === dog); // true
+console.log(Object.getPrototypeOf(dog) === wolf); // true
 
 // The wolf object is a plain JavaScript object, created with the object literal syntax.
 // The prototype of plain JavaScript objects is 'Object.prototype'.
