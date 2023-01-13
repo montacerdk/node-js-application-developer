@@ -1,0 +1,5 @@
+// SyntaxError
+
+function thisRefDoesNotExist() {}
+
+thisRefDoesNotExist(

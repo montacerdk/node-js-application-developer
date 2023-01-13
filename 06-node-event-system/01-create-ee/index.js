@@ -11,3 +11,5 @@ export class MyEmitter extends EventEmitter {
     this.name = opts.name;
   }
 }
+
+export const ee = new MyEmitter();
